@@ -1,0 +1,8 @@
+1. rozpakować pliki do katalogu ~/apkaNaChmurki
+1,5. cd ~/apkaNaChmurki
+2. wywołać polecenie by zbudować obraz:
+	docker build -t apka-na-chmurki .
+3. uruchomienie aplikacji:
+	docker run --rm --name apka apka-na-chmurki
+4. w przeglądarce wpisujemy adres:
+	172.17.0.2
